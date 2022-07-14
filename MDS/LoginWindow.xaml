@@ -1,0 +1,15 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MDS"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="MDS.LoginWindow"
+        mc:Ignorable="d"
+        Background="Transparent"
+        Title="LoginWindow" Height="576.827" Width="530.923" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True" MouseDown="Window_MouseDown">
+    
+    <Grid>
+        <Frame x:Name="MainAuthFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
